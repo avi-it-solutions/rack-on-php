@@ -1,6 +1,10 @@
-<ifModule>
+# BEGIN Rack on PHP
+<IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteBase /
-Rewrite [D] [L,N]
-Rewrite [F] [L,N]
-</ifModule>
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+# END Rack On PHP
