@@ -1,0 +1,6 @@
+<ifModule>
+RewriteEngine On
+RewriteBase /
+Rewrite [D] [L,N]
+Rewrite [F] [L,N]
+</ifModule>
