@@ -1,4 +1,9 @@
-rack-on-php
+Rack on PHP
 ===========
 
-We are developing this framework for fulfilling the all requirements as well as to easily customize the CMS. We will design and develop this in PHP and in bootstrap.
+Rack on PHP is being developed by us in taking the view of newbies to experts in PHP. It is based on the different libraries and open-sources, which gives boost to the CMS. We are giving developers a way to customize it like what they want. 
+
+Requirements
+===============
+PHP5.3, PDO, Linux, Apache
+
